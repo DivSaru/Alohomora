@@ -1,2 +1,37 @@
-# Alohomora
-ALOHOMORA is a vision-based blind stick. It aims at providing the visually impaired people with an easyand handy object identification and navigation system. The model that we will be using for objectidentification has been trained on the images of famous objects/obstacles that can be encountered by a visually impaired person in everyday life. This information will act as the basis for the results given to the user. Also, the distance to the object/obstacle will be calculated using a sensor and accordingly theinformation will be used to inform the person about the range or distance at which the object is.Furthermore, the system needs a continuous power supply to for its operation. The program on themini-computer should always be running in order to provide satisfying results to the visually impaired person.  There is more more to come in project ,until wait   Technologies used-  1.SOFTWARE - Operating System - Ubuntu 16.04,NOOBS 2.1.0 (Raspbian Pixel) Language -  Python3 Machine Learning Libraries - Tensorflow 0.12.0,0.12.0, Inception v3  2.HARDWARE- Raspberry Pi model 3B, Ultrasonic Sensor HC SR-04, Passive Speaker Buzzer
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/alohomora4blind/Alohomora/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alohomora4blind/Alohomora/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
