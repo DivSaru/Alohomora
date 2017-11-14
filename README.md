@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/alohomora4blind/Alohomora/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ALOHOMORA (Object Identification and Navigation System) uses model that is built using transfer learning from Google`s deep learning model Inception v3 which is internally trained by Google Inc . on 1000 categories supplied by the ImageNet (2012) with 79.3% confidence .
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alohomora4blind/Alohomora/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+After training that model again with 10 GB of data using Transfer Learning and Apache Spark as training platform ; applying Tensorflow to classify images which must be send by our device Raspberry Pie (which is further integrated with Camera , Sensor , Speaker and Buzzer ) . Standard output here in the form of Voice(speech)
+So basically our input image is classified by our model to produce speech (voice) with 85 % confidence over 75.3% confidence of Google`s ImageNet
